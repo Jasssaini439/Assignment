@@ -3,7 +3,9 @@ const Header = () => {
   return (
     <>
     <header className="header">
-    <span className="title">JXss</span>
+      <div className="main-layout">
+        <div className="main-header-layout"> 
+        <span className="title">JXss</span>
     <nav className="elements-nav">
       <ul>
         <li>Home</li>
@@ -11,6 +13,10 @@ const Header = () => {
         <li>Contact</li>
       </ul>
     </nav>
+    </div>
+      </div>
+      
+   
     </header>
     </>
   )

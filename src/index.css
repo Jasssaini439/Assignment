@@ -4,6 +4,21 @@
     box-sizing: border-box;
   }
   
+  .main-layout {
+    max-width: 990px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+  }
+
+  .main-header-layout {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
   header {
     width: 100%;
     height: 60px;
@@ -222,8 +237,10 @@
       gap: 10px;
       margin-top: 10px;
       width: 100%;
+
     }
-  
+
+   
     nav ul li a {
       padding: 10px;
       width: 100%;
