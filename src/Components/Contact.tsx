@@ -33,9 +33,9 @@ const Contact = () => {
     <section className="contact">
       <h3>Feel Free To Contact Me...</h3>
       <form onSubmit={handlesubmit}>
-        <input type="text" name="name" placeholder="Enter your name" onChange={handlechange}/>
-        <input type="text" name="email" placeholder="Enter your Email" onChange={handlechange}/>
-        <textarea name="message" placeholder="enter your message here" onChange={handlechange}></textarea>
+        <input type="text" name="name" placeholder="Enter your name" onChange={handlechange} className="input"/>
+        <input type="text" name="email" placeholder="Enter your Email" onChange={handlechange}  className="input"/>
+        <textarea name="message" placeholder="enter your message here" onChange={handlechange}  className="input"></textarea>
         <button type="submit">Send Message</button>
       </form>
             
