@@ -4,7 +4,7 @@ const Hero = () => {
     <>
     <section className="hero">
         <div className="img-hero">
-        <img src="/img.JPG" alt="my image" />
+        <img src="/img.jpeg" alt="my image" />
         </div>
         <div className="text-hero">
         <h1>Hey, My name is <span className="highlight">jashanvir singh</span> and i am a <span className="highlight">Web</span> developer</h1>
